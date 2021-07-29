@@ -1,122 +1,184 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>SKATE SHELF</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" type="text/css" media="all" />
-  </head>
+body{
+    font-family:"Hiragino Maru Gothic ProN" ,sans-serif;
+}
 
-  <body>
-    <div class="header">
+.header{
+    float:left;
+    margin-left:50px;
+    position:fixed;
+}
 
-      <a href="#top-wrapper"><img class="header-logo1" src="images/logo1.png" alt=""></a>
-      <div class="header-logo">SKATE SHELF</div>
+.header-logo1{
+    width:100px;    
+}
 
-      <div class="header-list">
-        <ul>
-          <a href="#main-wrapper"><li>what's スケートシェルフ？</li></a>
-          <a href="#example-wrapper"><li>使い方イメージ</li></a>
-          <a href="#links-wrapper"><li>購入はこちら</li></a>
-          <!-- <li>instagramリンク</li> -->
-        </ul>
-        <div class="insta-link">
-          <a href="https://www.instagram.com/skateshelf/?hl=ja" target="_brank"><i class="fab fa-instagram fa-3x faa-float animated" style="color:darkmagenta"></i></a>
-          <a href="https://www.instagram.com/skateshelf/?hl=ja" target="_brank"><p>instagram</p></a>
-        </div>
-      </div>
-    </div>
+.header-logo{
+    margin:0px 0px 50px 0px;
+    font-weight:bold;
+}
 
+.header li{
+    /* list-style:none; */
+    margin:20px 20px 10px 20px;
+    font-size:16px;
+    color:black;
+    font-weight:bold;
+}
 
+.header ul{
+    padding:0px;
+}
 
+.header-list a{
+    text-decoration:none;
+}
 
+.fab{
+    float:left;
+}
 
-    <a id="top-wrapper"><div class="top-wrapper"></a>
+.insta-link p{
+    padding-left:55px;
+    padding-top:9px;
+    color:black;
+    font-weight:bold;
+}
 
-      <div class="container">
-        
-      </div>
-    
-    </div>
-
-
-    <a id="main-wrapper"><div class="main-wrapper"></a>
-      <div class="container">
-        <h1 class="main-h1">スケートシェルフとは？</h1>
-        <h1 class="main-h1-2">使いおえたデッキ3枚をシェルフできるツール</h1>
-      </div>
-      <div class="container-gazo">
-        <img class="cotainer-gazo1" src="images/main-wrapper.png" alt="">
-      </div>
-    </div>
-
-    <a id="example-wrapper"><div class="example-wrapper"></a>
-      <div class="container">
-        <h1 class="example-h1">使い方はこんな感じ</h1>
-        <div class="examples">
-          <img class="example-1" src="images/sample1.jpeg" alt="">
-          <p>スケートDVDの収納</p>
-  
-        </div>
-        <div class="examples">
-          <img class="example-1" src="images/sample1.jpeg" alt="">
-          <p>玄関に置いてシューズラックに</p>
-  
-        </div>
-        <div class="examples">
-          <img class="example-1" src="images/sample1.jpeg" alt="">
-          <p>押し入に置いて収納力UP！(^ ^)</p>
-  
-        </div>
-      </div>
-
-      
-
-    </div>
-
-    <a id="links-wrapper"><div class="links-wrapper"></a>
-      <div class="container">
-        <h1 class="links-h1">メルカリ&クリーマにて販売中！</h1>
-        <div class="shop-icon-waku">
-        <!-- <div class="shop-icon-waku"> -->
-          <a href="https://www.mercari.com/jp/items/m46632356411/" target="_brank"><img class="mercari-icon" src="images/mercari-icon.png" alt=""></a>
-        <!-- </div> -->
-        <!-- <div class="shop-icon-waku"> -->
-          <a href="https://www.creema.jp/item/11784663/detail" target="_brank"><img class="creema-icon" src="images/creema-icon.png" alt=""></a>
-        <!-- </div> -->
-      </div>
-
-        <div class="sales-board">
-
-          <div class="price-word">
-            <h1>¥3800-(税込)<span>　送料込み</span></h1>
-            <p>※デッキは付属しません。</p>
-          </div>
+.insta-link{
+    margin-top:30px;
+}
 
 
-          <div class="photos">
-            <img class="photo3" src="images/販売案内の画像.png" alt="">
-          </div>
-          
-          
-        </div>
+.container{
+    text-align:center;
+    margin:0 200px;
+    /* border:solid 1px black; */
+}
+
+.top-wrapper{
+    background-image:url(images/top-wrapper_1705*932.png);
+    background-size:cover;
+    width:1705px;
+    height:900px;
+    margin:0 auto;
+}
+
+.main-wrapper{
+    /* background-image:url(images/main-wrapper.png); */
+    background-size:cover;
+    background-color: pink;
+    height:900px
+}
+
+.main-h1-2{
+    margin-top: 0px;
+    margin-bottom:50px;
+}
+
+.container-gazo1{
+    width:90%;
+    margin:-100px auto 0;
+    display:block;
+}
+
+.example-wrapper{
+    background-color: lightcyan;
+    height:650px;
+}
+
+.example-h1{
+    margin:0;
+}
+
+.examples{
+    width:33%;
+    /* height:100px; */
+    /* border:1px solid black; */
+    float:left;
+}
+
+.example-1{
+    width:70%;
+}
 
 
-        
-      </div>
+.links-wrapper{
+    background-color: ivory;
+    height:650px;
+}
 
-    </div>
-    
 
-    <footer>
-      <div class="footer-name">販売元：youlie&co</div>
+.sales-board{
+    /* height:280px; */
+    /* border:solid 1px black; */
+    text-align:center;
+}
 
-    </footer>
 
-    
-    
+.photo3{
+    width:50%;
+}
 
-    
-  </body>
-</html>
+.price-word{
+    /* border:solid 1px black; */
+    }
+
+.price-word span{
+    font-size:50%;
+}
+
+
+
+
+
+
+.shop-icon-waku{
+    /* border:solid 1px black; */
+    width:70%;
+    height:100px;
+    margin: 0 auto;
+    }
+
+.mercari-icon{
+    width:271px;
+    height:81px;
+    float:left;
+}
+
+.creema-icon{
+    width:340px;
+    height:80px;
+    float:right;
+ }
+
+.mercari-icon,.creema-icon{
+    border:solid 2px lightpink;
+    border-radius:10px;
+    box-shadow:4px 4px lightpink;
+}
+
+.mercari-icon:active,.creema-icon:active{
+    box-shadow:none;
+    position:relative;
+    top:4px;
+    left:4px;
+
+}
+
+
+.main-h1,.example-h1,.links-h1{
+    margin:0;
+    padding:40px;
+    color:black;
+}
+
+
+
+.footer-name{
+    background-color:black;
+    color:white;
+    text-align:center;
+    line-height:30px; 
+    font-family:Al Bayan Plain;
+    height:30px;
+}
