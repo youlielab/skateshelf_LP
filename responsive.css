@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-@media (max-width:400px){
+@media (max-width:415px){
 
     .header-list{
         display:none;
@@ -19,8 +19,7 @@
       }
 
     .top-wrapper{
-        
-        background-size:cover;
+
         width:100%;
         margin:0 auto;
     }
@@ -46,6 +45,31 @@
     .container-gazo-main_sp{
         display:block;
         width:100%;
-    }   
+    }
+
+
+
+    .examples-flex{
+        flex-direction:column;
+    }
+
+    .examples{
+        width:100%;
+        margin:0 auto;
+     }
+
+
+
+
+     .mercari-icon, .creema-icon{
+         width:100%;
+
+     }
+
+     .creema-icon{
+         margin:20px 0;
+     }
+
+
 
 }
