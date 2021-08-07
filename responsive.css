@@ -1,0 +1,51 @@
+/*  以下　レスポンシブ対応用追記 */
+
+*{
+    box-sizing:border-box;
+}
+
+@media (max-width:400px){
+
+    .header-list{
+        display:none;
+    }
+
+    .header-logo1,.header-logo{
+        display:none;
+    }
+
+    .menu-icon {
+       display:block;    
+      }
+
+    .top-wrapper{
+        
+        background-size:cover;
+        width:100%;
+        margin:0 auto;
+    }
+
+    .container{
+        margin:0 auto;
+        width:90%;
+    }
+
+    .container-gazo-top{
+        display:none;
+    }
+
+    .container-gazo-top_SP{
+        display:block;
+    }
+
+
+    .container-gazo-main{
+        display:none;
+        }
+    
+    .container-gazo-main_sp{
+        display:block;
+        width:100%;
+    }   
+
+}
