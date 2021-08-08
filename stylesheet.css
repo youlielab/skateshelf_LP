@@ -59,6 +59,10 @@ body{
 
 }
 
+.sp_menu{
+    display:none;
+}
+
 .container{
     text-align:center;
     margin:0 200px;
