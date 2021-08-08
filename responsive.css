@@ -71,5 +71,17 @@
      }
 
 
+     
+     .photos{
+         flex-direction:column;
+
+     }
+     
+     .photo1,.photo2,.photo3{
+        width:100%;
+        margin:10px 0;
+    }
+     
+
 
 }

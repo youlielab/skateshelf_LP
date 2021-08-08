@@ -123,20 +123,30 @@ body{
 
 .links-wrapper{
     background-color: ivory;
-    height:650px;
 }
 
 
 .sales-board{
-    /* height:280px; */
+    width:70%;
     /* border:solid 1px black; */
     text-align:center;
+    margin:0 auto;
 }
 
 
-.photo3{
-    width:50%;
+.photos{
+    display:flex;
+    margin:0 auto 10px;
 }
+
+.photo1,.photo2,.photo3{
+    flex:auto;
+    width:25%;
+    margin:0 5px;
+}
+
+
+
 
 
 .price-word span{
