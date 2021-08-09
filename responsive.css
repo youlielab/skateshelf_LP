@@ -82,10 +82,11 @@
     .container-gazo-topwaku{
         padding-top: 35px;
     }
-    }
+    
 
     .container-gazo-top_SP{
         display:block;
+        width:100%;
     }
 
 
@@ -107,6 +108,11 @@
     .examples{
         width:100%;
         margin:0 auto;
+     }
+
+     .examples p{
+       margin-top:0;
+       margin-bottom:30px;  
      }
 
 
@@ -132,6 +138,19 @@
         width:100%;
         margin:10px 0;
     }
+
+    /* spサイト用の改行指示 */
+    .main-h1,.example-h1,.links-h1{
+     
+        padding:40px 0;
+     
+    }
+
+    .br-sp{
+        display:block;
+    }
+
+
      
 
 

@@ -202,6 +202,11 @@ body{
     color:black;
 }
 
+/* spサイトの改行指示の無効化 */
+.br-sp{
+    display:none;
+}
+
 
 
 .footer-name{
