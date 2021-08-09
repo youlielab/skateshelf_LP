@@ -1,5 +1,5 @@
 body{
-    font-family:"Hiragino Maru Gothic ProN" , "Hiragino Sans", sans-serif;
+    font-family:"Hiragino Maru Gothic ProN" ,sans-serif;
 }
 
 .header{
@@ -141,6 +141,7 @@ body{
 .photos{
     display:flex;
     margin:0 auto 10px;
+    padding-bottom: 10px;
 }
 
 .photo1,.photo2,.photo3{
@@ -215,8 +216,11 @@ body{
     color:white;
     text-align:center;
     line-height:30px; 
-    font-family:Al Bayan Plain;
     height:30px;
+}
+
+.footer-name p{
+    margin:0;
 }
 
 
