@@ -5,6 +5,10 @@
 }
 
 @media (max-width:415px){
+    body{
+        font-family:"Hiragino Maru Gothic ProN" , "Hiragino Sans", sans-serif;
+    }
+
 
     .header-list{
         display:none;
