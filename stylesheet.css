@@ -99,7 +99,12 @@ body{
 
 .container-gazo-top_SP,.container-gazo-main_sp{
     display:none;
-}   
+}
+
+.container-gazo-top_tb,.container-gazo-main_tb{
+    display:none;
+}
+
 
 .example-wrapper{
     background-color: lightcyan;
