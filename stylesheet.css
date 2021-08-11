@@ -35,6 +35,13 @@ body{
     font-weight:bold;
 }
 
+.header-logo,.header li,.insta-link{
+    text-shadow: 1px 1px 0 white,
+    -1px 1px 0  white,
+    1px -1px 0  white,
+    -1px -1px 0  white;
+}
+
 .header ul{
     padding:0px;
 }
@@ -66,7 +73,7 @@ body{
 .container{
     text-align:center;
     margin:0 200px;
-    max-width:2000px;
+    /* max-width:2000px; */
     /* border:solid 1px black; */
 }
 
