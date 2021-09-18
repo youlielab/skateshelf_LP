@@ -184,6 +184,7 @@
 
     .container-gazo-top_tb,.container-gazo-main_tb{
         display:block;
+        width:100%;
     }
 
     .container-gazo-top,.container-gazo-main{

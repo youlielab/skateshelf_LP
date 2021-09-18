@@ -104,12 +104,21 @@ body{
     display:block;
     }
 
+.container-gazo-top{
+    width:100%;
+}
+
 .container-gazo-top_SP,.container-gazo-main_sp{
     display:none;
 }
 
 .container-gazo-top_tb,.container-gazo-main_tb{
     display:none;
+}
+
+
+.container-gazo-main{
+    width:100%;
 }
 
 
