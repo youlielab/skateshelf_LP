@@ -41,14 +41,10 @@
         /* background-color: mediumvioletred;     */
     }
 
-    .sp_menu-2{
-        background-color:;
-        border:solid 1px black;
-        margin:0 2%;
-    }
+  
 
 
-    .sp_menu-1,.sp_menu-2,.sp_menu-3 {
+    .sp_menu-1,.sp_menu-2,.sp_menu-3,.sp_menu-about {
         width:22%;
         float:left;
         border:solid 2px black;
@@ -57,9 +53,14 @@
         border-radius:5px;
         line-height:100%;
         background-color:white;
+        margin-right:2%;
         /* displayをnoneに指定してください */
         /* display:none; */
       }
+    
+    .sp_menu-3{
+        margin-right:0;
+    }
 
     
 

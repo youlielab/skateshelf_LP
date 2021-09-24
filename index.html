@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" type="text/css" media="all" />
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
+
+    <script type="text/javascript" charset="utf-8"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+    >    
+  </script>
   </head>
 
   <body>
     <div class="header">
 
       <a href="#top-wrapper"><img class="header-logo1" src="images/logo1.png" alt=""></a>
-      <div class="header-logo">SKATE SHELF</div>
+      <a href="#top-wrapper"><div class="header-logo">SKATE SHELF</div></a>
 
       <div class="header-list">
-        <ul>
+        <ul id="ul">
           <a href="#main-wrapper"><li>what's スケートシェルフ？</li></a>
           <a href="#example-wrapper"><li>使い方イメージ</li></a>
           <a href="#links-wrapper"><li>購入はこちら</li></a>
@@ -44,12 +49,21 @@
       </div>
       </a>
 
-      <a href="#links-wrapper">
-      <div class="sp_menu-2">
-        <i class="fas fa-shopping-bag" style="color:black"></i>
-        <p class="sp_menu-text">buy</p>
+      <a href="#main-wrapper">
+      <div class="sp_menu-about">
+        <!-- <i class="fas fa-shopping-bag" style="color:black"></i> -->
+        <p class="sp_menu-text">about</p>
       </div>
       </a>
+
+      <a href="#links-wrapper">
+        <div class="sp_menu-2">
+          <i class="fas fa-shopping-bag" style="color:black"></i>
+          <p class="sp_menu-text">buy</p>
+        </div>
+        </a>
+
+
 
       <a href="#top-wrapper">
       <div class="sp_menu-3">
@@ -150,6 +164,6 @@
     
     
 
-    
+    <script src="script.js"></script>
   </body>
 </html>
