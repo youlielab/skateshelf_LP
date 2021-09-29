@@ -63,4 +63,18 @@ $(function(){
         },500);
     })
 
+    
+    $('.example-1').each(function() {
+        let sample1_off = $(this).attr('src');
+        let sample1_on = $(this).attr('src').replace('off', 'on');
+        $(this).hover(
+        function () {
+        $(this).attr('src', sample1_on);
+        },
+        function () {
+        $(this).attr('src', sample1_off);
+        }
+        );
+        });
+
 });

@@ -135,7 +135,7 @@ body{
 }
 
 .examples{
-    width:33%;
+    width:33%;    
     /* height:100px; */
     /* border:1px solid black; */
     /* float:left; */
@@ -143,6 +143,18 @@ body{
 
 .example-1{
     width:70%;
+    cursor:pointer;
+    border-radius:8%;
+}
+
+.example-1:hover{
+    transform:scale(1.1);
+    transition-duration:0.3s;
+    
+}
+
+.overflow{
+    overflow:hidden;
 }
 
 
