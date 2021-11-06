@@ -1,5 +1,5 @@
 body{
-    font-family:"Hiragino Maru Gothic ProN" ,sans-serif;
+    font-family:"Hiragino Karu Gothic ProN" ,sans-serif;
 }
 
 .header{
@@ -72,7 +72,7 @@ body{
 
 .container{
     text-align:center;
-    margin:0 200px;
+    /* margin:0 200px; */
     /* max-width:2000px; */
     /* border:solid 1px black; */
 }
@@ -87,15 +87,26 @@ body{
     margin:0 auto;
 }
 
+#float-icon{
+    width:20%;
+    position:fixed;
+    top:500px;
+    right:-500px;
+}
+
 .main-wrapper{
 /* background-image:url(images/main-wrapper.png); */
     background-size:cover;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .main-h1-2{
     margin-top: 0px;
     margin-bottom:50px;
+}
+
+.main-tate{
+    width:100%;
 }
 
 .container-gazo-mainwaku{
@@ -123,7 +134,9 @@ body{
 
 
 .example-wrapper{
-    background-color: lightcyan;
+    background:-moz-linear-gradient(top,#FFF0F5,white) ;
+    background:-webkit-liner-gradient(top,#FFF0F5,white) ;
+    background: linear-gradient(to bottom,#FFF0F5,white) ;
 }
 
 .example-h1{
@@ -132,13 +145,12 @@ body{
 
 .examples-flex{
     display:flex;
+    justify-content:center;
+    padding:30px 0;
 }
 
 .examples{
-    width:33%;    
-    /* height:100px; */
-    /* border:1px solid black; */
-    /* float:left; */
+    width:28%;
 }
 
 .example-1{
@@ -153,8 +165,34 @@ body{
     
 }
 
-.overflow{
-    overflow:hidden;
+.jissyou-wrapper{
+    background-color:#E8E8E8;
+}
+
+.jissyou-tate{
+    width:100%;
+}
+
+.syoumei-tate{
+    width:80%;
+    margin:20px 0;
+}
+
+.closing-wrapper{
+    background-color:#FFF0F5;
+
+}
+
+.closing-tate{
+    width:80%;
+}
+
+.tsuishin-wrapper{
+    /* background-image:url("images/haikei1.jpg"); */
+}
+
+.tsuishin-tate{
+    width:80%;
 }
 
 
@@ -235,6 +273,7 @@ body{
     margin:0;
     padding:40px;
     color:black;
+    font-size:34px;
 }
 
 /* spサイトの改行指示の無効化 */
