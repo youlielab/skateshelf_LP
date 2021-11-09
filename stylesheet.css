@@ -105,9 +105,13 @@ body{
     margin-bottom:50px;
 }
 
-.main-tate{
+.main-gazo-top{
     width:100%;
 }
+.main-gazo-top_sp{
+    display:none;
+}
+
 
 .container-gazo-mainwaku{
     width:90%;
@@ -166,11 +170,19 @@ body{
 }
 
 .jissyou-wrapper{
-    background-color:#E8E8E8;
+    background-color:whitesmoke;
 }
 
-.jissyou-tate{
+.jissyou-gazo{
     width:100%;
+}
+
+.jissyou-gazo_sp{
+    display:none;
+}
+
+.syoumei-wrapper{
+    background-color:whitesmoke;
 }
 
 .syoumei-tate{
@@ -183,8 +195,12 @@ body{
 
 }
 
-.closing-tate{
+.closing-gazo{
     width:80%;
+}
+
+.closing-gazo_sp{
+    display:none;
 }
 
 .tsuishin-wrapper{
@@ -197,7 +213,7 @@ body{
 
 
 .links-wrapper{
-    background-color: ivory;
+    background-color: whitesmoke;
 }
 
 

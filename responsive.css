@@ -93,11 +93,25 @@
     }
 
 
-    .container-gazo-main{
+    .main-gazo-top{
         display:none;
         }
+
+    .main-gazo-top_sp{
+        display:block;
+        width:100%;
+    }        
     
     .container-gazo-main_sp{
+        display:block;
+        width:100%;
+    }
+
+    .jissyou-gazo{
+        display:none;
+    }
+
+    .jissyou-gazo_sp{
         display:block;
         width:100%;
     }
@@ -118,7 +132,12 @@
        margin-bottom:30px;  
      }
 
-     .closing-tate{
+     .closing-gazo{
+        display:none;
+    }
+
+    .closing-gazo_sp{
+        display:block;
         width:100%;
     }
 
@@ -167,8 +186,13 @@
     .br-sp{
         display:block;
     }
- 
+
+    #float-icon{
+        width:30%
+    }
 }
+
+
 
 
 
