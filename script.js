@@ -76,5 +76,33 @@ $(function(){
         }
         );
         });
+    
+    
+    // float-menuのフェードイン
+    var appear = false;
+    var pagetop = $('#float-icon');
+    $(window).scroll(function () {
+     if ($(this).scrollTop() > 2600) {  //100pxスクロールしたら
+      if (appear == false) {
+        appear = true;
+        pagetop.stop().animate({
+          'right': '-20px' //右から0pxの位置に
+        }, 600); //0.3秒かけて現れる
+      }
+    } else {
+      if (appear) {
+        appear = false;
+        pagetop.stop().animate({
+          'right': '-300px' //右から-50pxの位置に
+        }, 600); //0.3秒かけて隠れる
+      }
+    }
+  });
+//   pagetop.click(function () {
+    // $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    // return false;
+//   });
+
+
 
 });
