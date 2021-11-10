@@ -102,10 +102,7 @@
         width:100%;
     }        
     
-    .container-gazo-main_sp{
-        display:block;
-        width:100%;
-    }
+
 
     .jissyou-gazo{
         display:none;
@@ -132,11 +129,29 @@
        margin-bottom:30px;  
      }
 
+     .syoumei-gazo{
+         display:none;
+     }
+
+     .syoumei-gazo_sp{
+         display:block;
+         width:100%;
+     }
+
      .closing-gazo{
         display:none;
     }
 
     .closing-gazo_sp{
+        display:block;
+        width:100%;
+    }
+
+    .tsuishin-gazo{
+        display:none;
+    }
+
+    .tsuishin-gazo_sp{
         display:block;
         width:100%;
     }

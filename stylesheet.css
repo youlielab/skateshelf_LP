@@ -185,7 +185,7 @@ body{
     background-color:whitesmoke;
 }
 
-.syoumei-tate{
+.syoumei-gazo{
     width:80%;
     margin:20px 0;
 }
@@ -207,8 +207,12 @@ body{
     /* background-image:url("images/haikei1.jpg"); */
 }
 
-.tsuishin-tate{
+.tsuishin-gazo{
     width:80%;
+}
+
+.tsuishin-gazo_sp{
+    display:none;
 }
 
 
