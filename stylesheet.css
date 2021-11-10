@@ -190,6 +190,10 @@ body{
     margin:20px 0;
 }
 
+.syoumei-gazo_sp{
+    display:none;
+}
+
 .closing-wrapper{
     background-color:#FFF0F5;
 

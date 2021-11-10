@@ -192,10 +192,13 @@
     }
 
     /* spサイト用の改行指示 */
-    .main-h1,.example-h1,.links-h1{
-     
+    .example-h1{
+        padding:30px 0 0;
+        font-size:20px;
+    }
+
+    .main-h1,.links-h1{
         padding:40px 0;
-     
     }
 
     .br-sp{
