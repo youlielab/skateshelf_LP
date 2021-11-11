@@ -113,6 +113,13 @@
         width:100%;
     }
 
+    #float-icon{
+        width:40%;
+        position:fixed;
+        bottom:30px;
+        right:-500px;
+    }
+
 
 
     .examples-flex{
@@ -205,9 +212,6 @@
         display:block;
     }
 
-    #float-icon{
-        width:30%
-    }
 }
 
 

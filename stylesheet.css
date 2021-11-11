@@ -90,7 +90,7 @@ body{
 #float-icon{
     width:20%;
     position:fixed;
-    top:500px;
+    bottom:35px;
     right:-500px;
 }
 
