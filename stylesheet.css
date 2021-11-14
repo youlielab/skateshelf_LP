@@ -247,11 +247,17 @@ body{
 }
 
 
+.price-word p{
+    margin:0 auto;
+}
 
+.price-word h1{
+    margin-bottom:0;
+}
 
 
 .price-word span{
-    color:red;
+    /* color:red; */
 }
 
 
