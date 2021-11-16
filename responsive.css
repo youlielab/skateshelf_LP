@@ -192,6 +192,10 @@
         margin-bottom:20px;
     }
 
+    .insta-banner{
+        width:100%;
+    }
+
 
 
     .footer-name p{
@@ -241,4 +245,41 @@
     .container-gazo-top,.container-gazo-main{
         display:none;
     }
+
+    /* 以下フロートメニューのサイズ調整 */
+    .header{
+        margin-top:20px;
+        margin-left:20px;
+    }
+
+    .header-logo1{
+        width:30%;
+    }
+
+    .header-logo{
+        margin:0;
+        font-size:6px;
+    }
+
+    .header li{
+        font-size:6px;
+    }
+
+    .insta-link{
+        margin:0;
+    }
+
+    .fab{
+        font-size:20px;
+    }
+
+    .insta-link p{
+        padding-left:25px;
+        padding-top:0;
+        font-size:6px;
+    }
+
+
+
+
 }
